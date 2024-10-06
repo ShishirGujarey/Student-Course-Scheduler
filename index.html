@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Scheduler</title>
+    <script src="./index.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <h1 align="center">Student Course Scheduler</h1>
+    <p><b>Note:</b> Total credits should lie between 16 and 22.</p>
+    <p>Click on Submit button to build the schedule and print the timetable.</p>
+    <table id="courseTable">
+        <tr>
+            <th>Select</th>
+            <th>Title</th>
+            <th>Instructor</th>
+            <th>Max Credits</th>
+            <th>Min Credits</th>
+            <th>Schedule</th>
+            <th>Selected Credits</th>
+        </tr>
+        <tr id="course1"></tr>
+        <tr id="course2"></tr>
+        <tr id="course3"></tr>
+        <tr id="course4"></tr>
+        <tr id="course5"></tr>
+        <tr id="course6"></tr>
+    </table>
+    <button onclick="submitCourses()" id="submitButton">Submit</button>
+    <pre id="timetable"></pre>
+</body>
+</html>
