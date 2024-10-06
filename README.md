@@ -1,6 +1,8 @@
 # Student-Course-Scheduler
 This is a web application designed to help users build their academic schedule by selecting courses, entering credits for variable credit courses, and resolving scheduling conflicts. It checks for time overlaps and ensures that the total credit hours remain within an acceptable range.
 
+The application is built using Builder Design Pattern.
+
 ## Features
 
 - **Add Courses**: You can add courses to your schedule from a predefined list.
